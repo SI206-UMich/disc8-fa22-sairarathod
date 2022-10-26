@@ -18,8 +18,8 @@ def getAdmissionsInfo2019(soup):
     table = soup.find_all("table")
     inner_table = table.find('tables', class_ = "tococolour")
     dict = {}
-    #for item in inner_table:
-    #    dict[item] = 
+    for item in inner_table:
+        dict[item] = inner_table
     pass
 
 
