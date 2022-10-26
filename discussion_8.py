@@ -17,7 +17,7 @@ def getLink(soup):
 def getAdmissionsInfo2019(soup):
     table = soup.find_all("table")
     inner_table = table.find('tables', class_ = "tococolour")
-    #dict = {}
+    dict = {}
     #for item in inner_table:
     #    dict[item] = 
     pass
